@@ -1,0 +1,8 @@
+<h1> Page 1 </h1>
+<ul>
+  <li><a href="/" [routerLink]="['composant2/'+'param1']"  [queryParams]="{id: 'param2'}">routerLink</a>
+  </li>
+  <li>
+    <a href="/" (click)="gotopage2('param1', 'param2')">router navigate</a>
+  </li>
+</ul>
